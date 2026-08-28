@@ -1,0 +1,845 @@
+<div class="selah-store">
+
+  <!-- HEADER -->
+  <header class="selah-header">
+    <div class="selah-logo-placeholder">
+      SELAH STUDIO
+    </div>
+
+    <nav class="selah-nav">
+      <a href="#shop">SHOP</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+
+    <button class="selah-menu" aria-label="Menu">
+      ☰
+    </button>
+  </header>
+
+
+  <!-- HERO -->
+  <section class="selah-hero">
+
+    <div class="hero-inner">
+
+      <p class="hero-small">
+        CHRISTIAN STREETWEAR
+      </p>
+
+      <h1>
+        SELAH<br>
+        STUDIO
+      </h1>
+
+      <p class="hero-description">
+        Faith. Identity. Purpose.
+      </p>
+
+      <a href="#shop" class="hero-button">
+        SHOP COLLECTION
+      </a>
+
+    </div>
+
+    <div class="hero-number">
+      01 / 01
+    </div>
+
+  </section>
+
+
+  <!-- STATEMENT -->
+  <section class="selah-statement">
+
+    <p class="statement-small">
+      OUR MINDSET
+    </p>
+
+    <h2>
+      MORE THAN<br>
+      CLOTHING.
+    </h2>
+
+    <p class="statement-text">
+      A reminder of who you are,
+      what you believe and where
+      you're going.
+    </p>
+
+  </section>
+
+
+  <!-- SHOP -->
+  <section id="shop" class="selah-shop">
+
+    <div class="shop-heading">
+
+      <div>
+        <p class="shop-small">
+          SELAH STUDIO
+        </p>
+
+        <h2>
+          THE<br>
+          COLLECTION
+        </h2>
+      </div>
+
+      <p class="shop-number">
+        001
+      </p>
+
+    </div>
+
+
+    <!-- PRODUCT PLACEHOLDERS -->
+
+    <div class="product-grid">
+
+      <article class="product-card">
+
+        <div class="product-placeholder">
+          <span>COMING SOON</span>
+        </div>
+
+        <div class="product-info">
+          <h3>SELAH TEE</h3>
+          <p>COMING SOON</p>
+        </div>
+
+      </article>
+
+
+      <article class="product-card">
+
+        <div class="product-placeholder">
+          <span>COMING SOON</span>
+        </div>
+
+        <div class="product-info">
+          <h3>FAITH HOODIE</h3>
+          <p>COMING SOON</p>
+        </div>
+
+      </article>
+
+
+      <article class="product-card">
+
+        <div class="product-placeholder">
+          <span>COMING SOON</span>
+        </div>
+
+        <div class="product-info">
+          <h3>SELAH COLLECTION</h3>
+          <p>COMING SOON</p>
+        </div>
+
+      </article>
+
+
+      <article class="product-card">
+
+        <div class="product-placeholder">
+          <span>COMING SOON</span>
+        </div>
+
+        <div class="product-info">
+          <h3>NEW DROP</h3>
+          <p>COMING SOON</p>
+        </div>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="selah-about">
+
+    <div class="about-number">
+      02
+    </div>
+
+    <div class="about-content">
+
+      <p class="about-small">
+        ABOUT SELAH STUDIO
+      </p>
+
+      <h2>
+        WEAR<br>
+        YOUR<br>
+        FAITH.
+      </h2>
+
+      <p class="about-text">
+        SELAH STUDIO was created to bring faith,
+        identity and streetwear together.
+        Clothing with meaning, designed for
+        people who aren't afraid to stand out.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="selah-contact">
+
+    <p class="contact-small">
+      STAY CONNECTED
+    </p>
+
+    <h2>
+      FOLLOW<br>
+      THE JOURNEY.
+    </h2>
+
+    <a href="#" class="contact-button">
+      INSTAGRAM
+    </a>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="selah-footer">
+
+    <div class="footer-brand">
+      SELAH STUDIO
+    </div>
+
+    <div class="footer-links">
+      <a href="#shop">SHOP</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+
+    <div class="footer-copy">
+      © 2026 SELAH STUDIO
+    </div>
+
+  </footer>
+
+</div>
+
+
+<style>
+
+/* ================================
+   SELAH STUDIO
+   MINIMAL STREETWEAR
+================================ */
+
+
+/* RESET */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: #111111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* ================================
+   HEADER
+================================ */
+
+.selah-header {
+  width: 100%;
+  height: 82px;
+  padding: 0 5vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+
+  position: relative;
+  z-index: 10;
+}
+
+.selah-logo-placeholder {
+  font-size: 17px;
+  font-weight: 900;
+  letter-spacing: -0.7px;
+}
+
+.selah-nav {
+  display: flex;
+  gap: 42px;
+}
+
+.selah-nav a {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transition: opacity 0.2s ease;
+}
+
+.selah-nav a:hover {
+  opacity: 0.45;
+}
+
+.selah-menu {
+  display: none;
+
+  border: none;
+  background: none;
+
+  font-size: 22px;
+  cursor: pointer;
+}
+
+
+/* ================================
+   HERO
+================================ */
+
+.selah-hero {
+  min-height: calc(100vh - 82px);
+
+  background: #111111;
+  color: #ffffff;
+
+  padding: 7vw 6vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.hero-inner {
+  max-width: 1100px;
+}
+
+.hero-small {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 32px;
+}
+
+.hero-inner h1 {
+  font-size: clamp(80px, 15vw, 210px);
+
+  line-height: 0.78;
+
+  font-weight: 900;
+
+  letter-spacing: -10px;
+}
+
+.hero-description {
+  margin-top: 42px;
+
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.hero-button {
+  display: inline-block;
+
+  margin-top: 35px;
+
+  padding: 17px 28px;
+
+  background: #ffffff;
+  color: #111111;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+
+  transition: all 0.2s ease;
+}
+
+.hero-button:hover {
+  background: #bdbdbd;
+}
+
+.hero-number {
+  position: absolute;
+
+  right: 6vw;
+  bottom: 35px;
+
+  font-size: 10px;
+  letter-spacing: 3px;
+
+  opacity: 0.55;
+}
+
+
+/* ================================
+   STATEMENT
+================================ */
+
+.selah-statement {
+  min-height: 70vh;
+
+  padding: 12vw 8vw;
+
+  background: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statement-small {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+
+  margin-bottom: 35px;
+}
+
+.selah-statement h2 {
+  font-size: clamp(55px, 10vw, 135px);
+
+  line-height: 0.82;
+
+  font-weight: 900;
+
+  letter-spacing: -6px;
+}
+
+.statement-text {
+  max-width: 390px;
+
+  margin-top: 50px;
+
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+
+/* ================================
+   SHOP
+================================ */
+
+.selah-shop {
+  background: #111111;
+  color: #ffffff;
+
+  padding: 110px 5vw;
+}
+
+.shop-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-bottom: 70px;
+}
+
+.shop-small {
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
+  margin-bottom: 18px;
+}
+
+.shop-heading h2 {
+  font-size: clamp(50px, 8vw, 105px);
+
+  line-height: 0.82;
+
+  letter-spacing: -5px;
+
+  font-weight: 900;
+}
+
+.shop-number {
+  font-size: 10px;
+  letter-spacing: 3px;
+
+  opacity: 0.5;
+}
+
+
+/* PRODUCTS */
+
+.product-grid {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 60px 20px;
+}
+
+.product-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+
+  background: #2b2b2b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background 0.3s ease;
+}
+
+.product-placeholder:hover {
+  background: #383838;
+}
+
+.product-placeholder span {
+  font-size: 10px;
+
+  letter-spacing: 3px;
+
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+
+.product-info {
+  padding-top: 18px;
+}
+
+.product-info h3 {
+  font-size: 12px;
+  font-weight: 800;
+
+  letter-spacing: 1.5px;
+}
+
+.product-info p {
+  margin-top: 7px;
+
+  font-size: 9px;
+
+  letter-spacing: 2px;
+
+  opacity: 0.5;
+}
+
+
+/* ================================
+   ABOUT
+================================ */
+
+.selah-about {
+  min-height: 90vh;
+
+  padding: 120px 8vw;
+
+  background: #d9d9d9;
+
+  display: grid;
+
+  grid-template-columns: 100px 1fr;
+
+  gap: 50px;
+
+  align-items: center;
+}
+
+.about-number {
+  font-size: 10px;
+
+  letter-spacing: 3px;
+
+  align-self: start;
+}
+
+.about-small {
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
+  margin-bottom: 35px;
+}
+
+.about-content h2 {
+  font-size: clamp(65px, 11vw, 150px);
+
+  line-height: 0.78;
+
+  font-weight: 900;
+
+  letter-spacing: -7px;
+}
+
+.about-text {
+  max-width: 500px;
+
+  margin-top: 55px;
+
+  font-size: 17px;
+
+  line-height: 1.6;
+}
+
+
+/* ================================
+   CONTACT
+================================ */
+
+.selah-contact {
+  min-height: 70vh;
+
+  background: #ffffff;
+
+  padding: 120px 8vw;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.contact-small {
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 3px;
+
+  margin-bottom: 35px;
+}
+
+.selah-contact h2 {
+  font-size: clamp(55px, 10vw, 130px);
+
+  line-height: 0.8;
+
+  letter-spacing: -6px;
+
+  font-weight: 900;
+}
+
+.contact-button {
+  width: fit-content;
+
+  margin-top: 45px;
+
+  padding: 16px 28px;
+
+  background: #111111;
+
+  color: #ffffff;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+
+/* ================================
+   FOOTER
+================================ */
+
+.selah-footer {
+  min-height: 120px;
+
+  padding: 40px 5vw;
+
+  background: #111111;
+
+  color: #ffffff;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.footer-brand {
+  font-size: 15px;
+
+  font-weight: 900;
+
+  letter-spacing: -0.5px;
+}
+
+.footer-links {
+  display: flex;
+
+  gap: 30px;
+}
+
+.footer-links a {
+  font-size: 9px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  opacity: 0.7;
+}
+
+.footer-copy {
+  font-size: 9px;
+
+  letter-spacing: 1px;
+
+  opacity: 0.5;
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 700px) {
+
+  .selah-header {
+    height: 70px;
+
+    padding: 0 25px;
+  }
+
+  .selah-nav {
+    display: none;
+  }
+
+  .selah-menu {
+    display: block;
+
+    color: #111111;
+  }
+
+
+  .selah-hero {
+    min-height: calc(100vh - 70px);
+
+    padding: 40px 25px;
+  }
+
+  .hero-inner h1 {
+    font-size: 22vw;
+
+    letter-spacing: -5px;
+  }
+
+  .hero-small {
+    font-size: 8px;
+
+    letter-spacing: 3px;
+  }
+
+
+  .selah-statement {
+    min-height: 60vh;
+
+    padding: 90px 25px;
+  }
+
+  .selah-statement h2 {
+    font-size: 17vw;
+
+    letter-spacing: -4px;
+  }
+
+
+  .selah-shop {
+    padding: 85px 20px;
+  }
+
+  .shop-heading {
+    margin-bottom: 50px;
+  }
+
+  .shop-heading h2 {
+    font-size: 15vw;
+
+    letter-spacing: -4px;
+  }
+
+  .product-grid {
+    grid-template-columns: 1fr;
+
+    gap: 50px;
+  }
+
+
+  .selah-about {
+    min-height: auto;
+
+    padding: 90px 25px;
+
+    grid-template-columns: 1fr;
+
+    gap: 35px;
+  }
+
+  .about-content h2 {
+    font-size: 20vw;
+
+    letter-spacing: -5px;
+  }
+
+  .about-text {
+    font-size: 15px;
+
+    margin-top: 40px;
+  }
+
+
+  .selah-contact {
+    min-height: 60vh;
+
+    padding: 90px 25px;
+  }
+
+  .selah-contact h2 {
+    font-size: 18vw;
+
+    letter-spacing: -5px;
+  }
+
+
+  .selah-footer {
+    padding: 40px 25px;
+
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+  }
+
+}
+
+</style>
